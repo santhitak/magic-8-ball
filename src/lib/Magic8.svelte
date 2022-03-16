@@ -14,6 +14,7 @@
     height: 100%;
     width: 100%;
     align-items: center;
+    user-select: none;
   }
   .prediction {
     color: #7ee1ff;
