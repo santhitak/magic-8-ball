@@ -7,8 +7,8 @@
   <TailwindCss />
   <div class="wrapper">
     <div class="intro">
-      <h2>MAGIC 8 BALL</h2>
-      <p>Do you ever feel hesitated, lost or can't decide?</p>
+      <h2>MAGIC <br /> 8 BALL</h2>
+      <p>Do you ever feel hesitated?</p>
       <p>Let's the magic 8 ball tell you what to do!</p>
       <button class="bn632-hover bn20"> SHAKE </button>
     </div>
@@ -33,6 +33,7 @@
       rgba(0, 0, 0, 1) 80%
     );
     overflow: hidden;
+    padding: 0 4rem;
   }
 
   .wrapper {
@@ -44,20 +45,21 @@
   }
 
   .intro {
-    width: 50vw;
+    width: 40vw;
     height: 100vh;
     padding: 10rem;
   }
 
   .intro h2 {
-    font-size: 3.8rem;
+    font-size: 4.6rem;
     color: aliceblue;
     font-weight: 600;
+    line-height: 78%;
+    margin-bottom: 2rem;
   }
 
   .intro p {
     color: aliceblue;
-    line-height: 200%;
   }
 
   .bn632-hover {
