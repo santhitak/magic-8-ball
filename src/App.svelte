@@ -1,6 +1,34 @@
 <script>
   import TailwindCss from "./TailwindCSS.svelte";
-  import Magic8 from "./lib/Magic8.svelte";
+  let prediction = [
+    "It is certain",
+    "It is decidedly so",
+    "Without a doubt",
+    "Yes definitely",
+    "You may rely on it",
+    "As I see it, yes",
+    "Most likely",
+    "Outlook good",
+    "Yes",
+    "Signs point to yes",
+    "Reply hazy, try again",
+    "Ask again later",
+    "Better not tell you now",
+    "Cannot predict now",
+    "Concentrate and ask again",
+    "Don't count on it",
+    "My reply is no",
+    "My sources say no",
+    "Outlook not so good",
+    "Very doubtful",
+  ];
+
+  let predict = "Ask and shake";
+
+  export const choose = (e) => {
+    e.preventDefault();
+    predict = prediction[Math.floor(Math.random() * prediction.length)];
+  };
 </script>
 
 <main>
@@ -10,9 +38,18 @@
       <h2>MAGIC <br /> 8 BALL</h2>
       <p>Do you ever feel hesitated?</p>
       <p>Let's the magic 8 ball tell you what to do!</p>
-      <button class="bn632-hover bn20"> SHAKE </button>
+      <button class="bn632-hover bn20" on:click={choose}> SHAKE </button>
     </div>
-    <Magic8 />
+    <div class="ball-wrapper flex justify-center align-center">
+      <img
+        src="https://i.imgur.com/oO3tsTC.png"
+        alt="Magic ball"
+        style="height: 75vh; width: auto; padding-right: 10rem"
+      />
+      <div class="absolute">
+        <h5 class="prediction font-mono">{predict}</h5>
+      </div>
+    </div>
   </div>
 </main>
 
@@ -101,5 +138,22 @@
     margin-left: 0;
     margin-top: 3rem;
     box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  }
+
+  .ball-wrapper {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    user-select: none;
+  }
+  .prediction {
+    color: #7ee1ff;
+    max-width: 7vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: large;
+    margin-right: 9.5rem;
+    margin-bottom: 3rem;
   }
 </style>
