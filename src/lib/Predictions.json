@@ -1,0 +1,24 @@
+{
+  "prediction":[
+    {"id":1,"desc":"It is certain"},
+    {"id":2, "desc": "It is decidedly so"},
+    {"id":3,"desc":"Without a doubt"},
+    {"id":4, "desc": "Yes definitely"},
+    {"id":5,"desc":"You may rely on it"},
+    {"id":6, "desc": "As I see it, yes"},
+    {"id":7, "desc": "Most likely"},
+    {"id":8,"desc":"Outlook good"},
+    {"id":9, "desc": "Yes"},
+    {"id":10, "desc": "Signs point to yes"},
+    {"id":11,"desc":"Reply hazy, try again"},
+    {"id":12, "desc": "Ask again later"},
+    {"id":13, "desc": "Better not tell you now"},
+    {"id":14,"desc":"Cannot predict now"},
+    {"id":15, "desc": "Concentrate and ask again"},
+    {"id":16, "desc": "Don't count on it"},
+    {"id":17, "desc": "My reply is no"},
+    {"id":18,"desc":"My sources say no"},
+    {"id":19, "desc": "Outlook not so good"},
+    {"id":20, "desc": "Very doubtful"}
+  ]
+}
