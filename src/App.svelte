@@ -3,11 +3,13 @@
   import { prediction } from "./assets/prediction";
 
   let predict = "Ask and shake";
+  let mark = 0;
 
-  const choose = (e) => {
+  function pred(e){
     e.preventDefault();
     predict = prediction[Math.floor(Math.random() * prediction.length)];
-  };
+    mark += 1
+  }
 </script>
 
 <main>
@@ -17,7 +19,7 @@
       <h2>MAGIC <br /> 8 BALL</h2>
       <p>Do you ever feel hesitated?</p>
       <p>Let's the magic 8 ball tell you what to do!</p>
-      <button class="bn632-hover bn20 " on:click={choose} type="button"> SHAKE </button>
+      <button class="bn632-hover bn20" on:click={pred} type="button"> SHAKE </button>
     </div>
     <div class="ball-wrapper flex justify-center align-center">
       <img
@@ -26,7 +28,7 @@
         style="height: 75vh; width: auto; padding-right: 10rem"
       />
       <div class="absolute">
-        <h5 class="prediction font-mono">{predict}</h5>
+        <h5 class="prediction font-mono">{predict} {mark}</h5>
       </div>
     </div>
   </div>
