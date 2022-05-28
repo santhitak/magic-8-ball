@@ -3,12 +3,13 @@
   import { prediction } from "./assets/prediction";
 
   let predict = "Ask and shake";
-  let mark = 0;
-
   function pred(e){
     e.preventDefault();
     predict = prediction[Math.floor(Math.random() * prediction.length)];
-    mark += 1
+    document.getElementById('magicBall').className = 'magic'
+    setTimeout(()=>{
+      document.getElementById('magicBall').classList.remove('magic');
+    }, 500)
   }
 </script>
 
@@ -25,10 +26,11 @@
       <img
         src="https://i.imgur.com/oO3tsTC.png"
         alt="Magic ball"
+        id="magicBall"
         style="height: 75vh; width: auto; padding-right: 10rem"
       />
       <div class="absolute">
-        <h5 class="prediction font-mono">{predict} {mark}</h5>
+        <h5 class="prediction font-mono" id="pred">{predict}</h5>
       </div>
     </div>
   </div>

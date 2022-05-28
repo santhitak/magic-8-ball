@@ -8,12 +8,12 @@
 ## ToDos
 ### Machanics
   - [x] functional
-  - [ ] playful
+  - [x] playful
 ### Looks
-  - [ ] animated
+  - [x] animated
   - [ ] update to new theme ([the amazing world of gumball](https://www.cartoonnetworkhq.com/show/gumball))
 
 <hr>
 
 ##### inspired by <br>
-<img style='width: 350px; height: auto' src='https://c.tenor.com/BsBo4WpXEjEAAAAd/friends-monica-geller.gif' />
+<img alt="" style='width: 350px; height: auto' src='https://c.tenor.com/BsBo4WpXEjEAAAAd/friends-monica-geller.gif' />
