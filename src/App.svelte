@@ -10,7 +10,7 @@
     document.getElementById('magicBall').className = 'magic'
     setTimeout(()=>{
       document.getElementById('magicBall').classList.remove('magic');
-    }, 500)
+    }, 350)
   }
 </script>
 
@@ -18,11 +18,11 @@
   <div class="{main}">
     <TailwindCss />
     <div class="{wrapper}">
-      <div class="{intro} intro">
+      <div class="{intro}">
         <h2>MAGIC <br /> 8 BALL</h2>
         <p>Do you ever feel hesitated?</p>
         <p>Let's the magic 8 ball tell you what to do!</p>
-        <button class="{bn632} bn632 {bn20}" on:click={pred} type="button"> SHAKE </button>
+        <button class="{bn632}  {bn20}" on:click={pred} type="button"> SHAKE </button>
       </div>
       <div class="{ballWrapper} flex justify-center align-center">
         <img

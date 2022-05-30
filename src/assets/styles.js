@@ -29,6 +29,15 @@ export const bn632 = css`
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  &:hover{
+    background-position: 100% 0;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  },
+  &:focus{
+    outline: none;
+  }
 `
 
 export const bn20 = css`
@@ -74,4 +83,14 @@ export const intro = css`
   width: 40vw;
   height: 100vh;
   padding: 10rem;
+  & h2{
+    font-size: 4.6rem;
+    color: aliceblue;
+    font-weight: 600;
+    line-height: 78%;
+    margin-bottom: 2rem;
+  },
+  & p{
+  color: aliceblue;
+  }
 `
