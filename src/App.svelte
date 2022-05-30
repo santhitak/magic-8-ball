@@ -1,7 +1,14 @@
 <script>
   import TailwindCss from "./TailwindCSS.svelte";
   import { prediction } from "./assets/prediction";
-  import { main, bn632, bn20, wrapper, ballWrapper, predict_txt, intro } from './assets/styles.js'
+  import {
+    main,
+    bn632,
+    bn20,
+    wrapper,
+    ballWrapper,
+    predict_txt,
+    intro } from './assets/styles.js'
 
   let predict = "Ask and shake";
   function pred(e){
