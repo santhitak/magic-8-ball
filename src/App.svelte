@@ -26,6 +26,16 @@
     <TailwindCss />
     <div class="{wrapper}">
       <div class="{intro}">
+        <div style="margin-bottom: 2.5rem; display: flex; user-select: none;">
+          <a href="https://github.com/santhitak/magic-8-ball" target="_blank">
+            <img alt="" src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png"
+                 style="width: 30px; height: auto; margin-right: 1rem">
+          </a>
+          <a href="https://www.linkedin.com/in/santhita-krajangwongpaisan-7372121b0/" target="_blank">
+            <img alt="" src="https://pnggrid.com/wp-content/uploads/2021/05/Linkedin-Logo-White-Circle-1024x1024.png"
+                 style="width: 30px; height: auto;">
+          </a>
+        </div>
         <h2>MAGIC <br /> 8 BALL</h2>
         <p>Do you ever feel hesitated?</p>
         <p>Let's the magic 8 ball tell you what to do!</p>
