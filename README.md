@@ -1,8 +1,7 @@
 # Magic 8-Ball
 
-(works in progress)
 
-![image](https://user-images.githubusercontent.com/74261236/158692886-ae54495c-5544-477a-831d-9d44187e4f1f.png)
+![image](https://user-images.githubusercontent.com/74261236/170939218-c0b799c9-ab54-4188-979b-12a3bcdbe465.png)
 #### Have you ever been unsure of anything? gosh, roll us!
 
 ## ToDos
