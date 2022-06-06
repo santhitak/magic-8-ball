@@ -13,7 +13,7 @@
   let predict = "Ask and shake";
   function pred(e){
     e.preventDefault();
-    predict = prediction[Math.floor(Math.random() * prediction.length)];
+    predict = prediction[Math.floor(Math.random() * prediction.length) + 1];
     document.getElementById('magicBall').className = 'magic'
     setTimeout(()=>{
       document.getElementById('magicBall').classList.remove('magic');
