@@ -38,7 +38,7 @@
         </div>
         <h2>MAGIC <br /> 8 BALL</h2>
         <p>Do you ever feel hesitated?</p>
-        <p>Let's the magic 8 ball tell you what to do!</p>
+        <p>Let the magic 8 ball tells you what to do!</p>
         <button class="{bn632}  {bn20}" on:click={pred} type="button"> SHAKE </button>
       </div>
       <div class="{ballWrapper} flex justify-center align-center">
